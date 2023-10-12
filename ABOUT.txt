@@ -1,0 +1,20 @@
+This is an image portfolio website which uses CSS techniques and flex box to display photos.
+
+1. First, I gave the title in the html file
+2. Then I gave a h1 element with title
+3. After that I gave a div with class="container" to add the images.
+4. Added 6 image tags under the div and gave the src
+5. In css sheet for the image, make width=450px and height=420px. The reason we are not adding this width and height to the attributes of image tag is because if we ever want to change anythign we would need to change each individual image details.
+6. To add flex box, give display:flex for the div in css stylesheet
+7. Now give flex-wrap:wrap; usee css tricks site for flexbox for details. Flex-wrap makes sure that the images fit inside no matter what size you minimize your browser
+to.
+8. To keep the content in the flex to center, give justify-content:center;
+9. I added google fonts link and css for h1 as well
+10. I gave font-size:3em
+11. Gave a margin for the images as 10px
+12. Also made the body background-color as black
+13. To make it move when hovering i gave transition: all 1s; in img selector
+14. then gave :
+img:hover{
+    transform: scale(1.1);
+}
